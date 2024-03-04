@@ -19,7 +19,7 @@ Work experience
 ======
 * April - July 2024: Visiting Researcher
   * Fraunhofer Heinrich Hertz Institute
-  #* Duties includes: Updates and improvements to template
+  [//]: <> #* Duties includes: Updates and improvements to template
   * Supervisors: Prof. Dr. Wojciech Samek and Dr. Sebastian Lapuschkin
 
 
@@ -30,12 +30,7 @@ Work experience
   
 Skills
 ======
-#* Skill 1
-#* Skill 2
-#  * Sub-skill 2.1
-#  * Sub-skill 2.2
-#  * Sub-skill 2.3
-#* Skill 3
+
 
 Publications
 ======
@@ -43,11 +38,11 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-#Talks
-#======
-#  <ul>{% for post in site.talks reversed %}
-#    {% include archive-single-talk-cv.html  %}
-#  {% endfor %}</ul>
+[//]: <> Talks
+[//]: <> ======
+[//]: <>   <ul>{% for post in site.talks reversed %}
+[//]: <>     {% include archive-single-talk-cv.html  %}
+[//]: <>   {% endfor %}</ul>
   
 Teaching
 ======
@@ -55,7 +50,7 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service	# and leadership
+Service
 ======
 * Organizing
   * The 3rd Explainable AI for Computer Vision (XAI4CV) Workshop at CVPR 2024
