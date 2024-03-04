@@ -11,35 +11,31 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Computer Science, Technical University of Denmark, 2014 (expected)
+* M.S. in Mathematical analysis, Charles University, 2021
+* B.S. in General Mathematics, Charles University, 2018
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* April - July 2024: Visiting Researcher
+  * Fraunhofer Heinrich Hertz Institute
+  #* Duties includes: Updates and improvements to template
+  * Supervisors: Prof. Dr. Wojciech Samek and Dr. Sebastian Lapuschkin
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* February 2020 - May 2021: Conversational AI Student Researcher
+  * Czech Technical University
+  #* Duties included: Tagging issues
+  #* Supervisor: Professor Git
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+#* Skill 1
+#* Skill 2
+#  * Sub-skill 2.1
+#  * Sub-skill 2.2
+#  * Sub-skill 2.3
+#* Skill 3
 
 Publications
 ======
@@ -47,11 +43,11 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+#Talks
+#======
+#  <ul>{% for post in site.talks reversed %}
+#    {% include archive-single-talk-cv.html  %}
+#  {% endfor %}</ul>
   
 Teaching
 ======
@@ -59,6 +55,9 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Service	# and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Organizing
+  * The 3rd Explainable AI for Computer Vision (XAI4CV) Workshop at CVPR 2024
+* Reviewing
+  * The 32nd International Conference on Artificial Neural Networks (ICANN) 2023; NeurIPS - XAI in Action workshop 2023; ICASSP 2024
