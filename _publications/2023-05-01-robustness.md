@@ -3,7 +3,7 @@ title: "Robustness of Visual Explanations to Common Data Augmentation Methods"
 collection: publications
 permalink: /publication/2023-05-01-robustness
 excerpt: 'Paper on robustness of explainability methods to common data augmentation methods.'
-date: 2023-06
+date: 2023-06-01
 venue: 'Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition'
 paperurl: 'https://openaccess.thecvf.com/content/CVPR2023W/XAI4CV/papers/Tetkova_Robustness_of_Visual_Explanations_to_Common_Data_Augmentation_Methods_CVPRW_2023_paper.pdf'
 citation: '**Tětková, L.**, & Hansen, L. K. (2023). Robustness of Visual Explanations to Common Data Augmentation Methods. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 3714-3719).'

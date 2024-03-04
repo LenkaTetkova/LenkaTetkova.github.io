@@ -3,7 +3,7 @@ title: "On convex decision regions in deep network representations"
 collection: publications
 permalink: /publication/2023-09-01-convexity
 excerpt: 'This paper is about convexity of internal representations of deep neural networks.'
-date: 2023-09
+date: 2023-09-01
 venue: 'ICLR 2024 Workshop on Representational Alignment (Re-Align) - poster'
 paperurl: 'https://arxiv.org/pdf/2305.17154.pdf'
 citation: '**Tětková, L.**, Brüsch, T., Scheidt, T. K., Mager, F. M., Aagaard, R. Ø., Foldager, J., ... & Hansen, L. K. (2023). On convex conceptual regions in deep network representations. arXiv preprint arXiv:2305.17154.'
