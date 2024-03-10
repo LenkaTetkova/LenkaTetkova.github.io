@@ -32,9 +32,18 @@ Skills
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  * Published
+    <ul>{% for post in site.publications reversed %}
+      {% include archive-single-cv.html %}
+    {% endfor %}</ul>
+  * Preprints
+    <ul>{% for post in site.preprints reversed %}
+      {% include archive-single-cv.html %}
+    {% endfor %}</ul>
+  * In review
+    <ul>{% for post in site.in_review reversed %}
+      {% include archive-single-cv.html %}
+    {% endfor %}</ul>
   
   
 Teaching
