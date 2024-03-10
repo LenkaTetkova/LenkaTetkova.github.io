@@ -32,15 +32,15 @@ Skills
 
 Publications
 ======
-  * Published
+## Published
     <ul>{% for post in site.publications reversed %}
       {% include archive-single-cv.html %}
     {% endfor %}</ul>
-  * Preprints
+## Preprints
     <ul>{% for post in site.preprints reversed %}
       {% include archive-single-cv.html %}
     {% endfor %}</ul>
-  * In review
+## In review
     <ul>{% for post in site.in_review reversed %}
       {% include archive-single-cv.html %}
     {% endfor %}</ul>
