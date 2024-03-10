@@ -204,6 +204,12 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+  preprints:
+    output: true
+    permalink: /:collection/:path/
+  in_review:
+    output: true
+    permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/

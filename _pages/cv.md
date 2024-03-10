@@ -11,7 +11,8 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Computer Science, Technical University of Denmark, 2014 (expected)
+* Ph.D in Computer Science, Technical University of Denmark, 2024 (expected)
+  * Supervisor: Professor Lars Kai Hansen
 * M.S. in Mathematical analysis, Charles University, 2021
 * B.S. in General Mathematics, Charles University, 2018
 
@@ -19,14 +20,11 @@ Work experience
 ======
 * April - July 2024: Visiting Researcher
   * Fraunhofer Heinrich Hertz Institute
-  [//]: <> #* Duties includes: Updates and improvements to template
   * Supervisors: Prof. Dr. Wojciech Samek and Dr. Sebastian Lapuschkin
 
 
 * February 2020 - May 2021: Conversational AI Student Researcher
   * Czech Technical University
-  #* Duties included: Tagging issues
-  #* Supervisor: Professor Git
   
 Skills
 ======
