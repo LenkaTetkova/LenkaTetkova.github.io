@@ -36,12 +36,12 @@ Publications
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-## Preprints
-  <ul>{% for post in site.preprints reversed %}
+## Accepted
+  <ul>{% for post in site.in_review reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-## In review
-  <ul>{% for post in site.in_review reversed %}
+## Preprints
+  <ul>{% for post in site.preprints reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
@@ -52,7 +52,7 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service
+Community service
 ======
 * Organizing
   * The 3rd Explainable AI for Computer Vision (XAI4CV) Workshop at CVPR 2024
