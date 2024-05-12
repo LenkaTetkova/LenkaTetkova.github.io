@@ -256,6 +256,25 @@ defaults:
       author_profile: true
       share: true
       comments: true
+  # _preprints
+  - scope:
+      path: ""
+      type: preprints
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _in_review
+  - scope:
+      path: ""
+      type: in_review
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  
   # _portfolio
   - scope:
       path: ""
