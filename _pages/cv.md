@@ -57,4 +57,8 @@ Service
 * Organizing
   * The 3rd Explainable AI for Computer Vision (XAI4CV) Workshop at CVPR 2024
 * Reviewing
-  * The 32nd International Conference on Artificial Neural Networks (ICANN) 2023; NeurIPS - XAI in Action workshop 2023; ICASSP 2024
+  * The 33rd International Conference on Artificial Neural Networks (ICANN) 2024;
+  * The 3rd Explainable AI for Computer Vision (XAI4CV) Workshop at CVPR 2024;
+  * ICASSP 2024;
+  * NeurIPS - XAI in Action workshop 2023;
+  * The 32nd International Conference on Artificial Neural Networks (ICANN) 2023;
