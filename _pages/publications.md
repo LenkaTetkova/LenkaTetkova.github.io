@@ -19,14 +19,15 @@ author_profile: true
 {% endfor %}
 
 
+# Accepted
+{% for post in site.in_review reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+
+
 # Preprints
 {% for post in site.preprints reversed %}
   {% include archive-single.html %}
 {% endfor %}
 
-
-# In review
-{% for post in site.in_review reversed %}
-  {% include archive-single.html %}
-{% endfor %}
 
