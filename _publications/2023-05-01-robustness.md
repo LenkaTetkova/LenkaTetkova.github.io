@@ -1,7 +1,7 @@
 ---
 title: "Robustness of Visual Explanations to Common Data Augmentation Methods"
 collection: publications
-permalink: /publication/2023-05-01-robustness
+permalink: /publications/2023-05-01-robustness
 excerpt: 'Paper on robustness of explainability methods to common data augmentation methods.'
 date: 2023-06-01
 venue: 'Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition'
