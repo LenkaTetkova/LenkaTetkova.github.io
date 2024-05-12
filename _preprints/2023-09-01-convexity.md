@@ -1,8 +1,8 @@
 ---
 title: "On convex decision regions in deep network representations"
-collection: publications
+collection: preprints
 permalink: /preprints/2023-09-01-convexity
-excerpt: 'This paper is about convexity of internal representations of deep neural networks.'
+excerpt: 'Presented at ICLR 2024 Workshop on Representational Alignment (Re-Align) - poster presentation.'
 date: 2023-09-01
 venue: 'ICLR 2024 Workshop on Representational Alignment (Re-Align) - poster (non-archival)'
 paperurl: 'https://arxiv.org/pdf/2305.17154.pdf'
