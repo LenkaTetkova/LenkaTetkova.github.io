@@ -7,6 +7,8 @@ layout: archive
 
 {% include base_path %}
 
+**2024-05-21:** Our paper [*Image classification with symbolic hints using limited resources*](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0301360) was published in PLOS ONE.
+
 **2024-05-11:** We present our [poster](https://lenkatetkova.github.io/files/Convexity_poster.pdf) at [ICLR 2024 Workshop on Representational Alignment (Re-Align)](https://representational-alignment.github.io/).
 
 **2024-05-03:** My doctoral proposal was accepted to the Doctoral consortium at [The 2nd World Conference on eXplainable Artificial Intelligence](https://xaiworldconference.com/2024/).
