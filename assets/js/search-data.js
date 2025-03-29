@@ -23,13 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
         },{id: "nav-cv",
           title: "cv",
           description: "",
@@ -39,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
@@ -71,16 +64,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-our-paper-from-colors-to-classes-emergence-of-concepts-in-vision-transformers-was-accepted-to-the-3rd-world-conference-on-explainable-artificial-intelligence-xai-2025",
+          title: 'Our paper “From Colors to Classes: Emergence of Concepts in Vision Transformers” was...',
           description: "",
           section: "News",},{
         id: 'social-email',
