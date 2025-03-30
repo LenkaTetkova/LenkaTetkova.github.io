@@ -2,7 +2,7 @@
 ---
 @article{tetkova2023convexity,
     title={On convex decision regions in deep network representations},
-    author={Lenka Tětková et al.},
+    author={T{\v{e}}tkov{\'a}, Lenka and Br{\"u}sch, Thea and Scheidt, Teresa Karen and Mager, Fabian Martin and Aagaard, Rasmus {\O}rtoft and Foldager, Jonathan and Alstr{\o}m, Tommy Sonne and Hansen, Lars Kai},
     year={2023},
     journal={arXiv preprint	arXiv:2305.17154},
     arxiv={2305.17154},
@@ -11,5 +11,216 @@
     preview = {convexity.png},
     abstract = {Current work on human-machine alignment aims at understanding machine-learned latent spaces and their correspondence to human representations. Gärdenfors' conceptual spaces is a prominent framework for understanding human representations. Convexity of object regions in conceptual spaces is argued to promote generalizability, few-shot learning, and interpersonal alignment. Based on these insights, we investigate the notion of convexity of concept regions in machine-learned latent spaces. We develop a set of tools for measuring convexity in sampled data and evaluate emergent convexity in layered representations of state-of-the-art deep networks. We show that convexity is robust to basic re-parametrization and, hence, meaningful as a quality of machine-learned latent spaces. We find that approximate convexity is pervasive in neural representations in multiple application domains, including models of images, audio, human activity, text, and medical images. Generally, we observe that fine-tuning increases the convexity of label regions. We find evidence that pretraining convexity of class label regions predicts subsequent fine-tuning performance.},
     abbr = {Preprint},
-    code = {https://github.com/LenkaTetkova/Convexity-of-representations}
+    code = {https://github.com/LenkaTetkova/Convexity-of-representations},
+    additional_info={Presented at ICLR 2024 Workshop on Representational Alignment (Re-Align)},
+    poster={poster_convexity.pdf},
+}
+
+@article{tetkova2023robustness,
+    title={Robustness of Visual Explanations to Common Data Augmentation Methods},
+    author={Lenka Tětková and Lars Kai Hansen},
+    year={2023},
+    month={June},
+    journal={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+    pages={3714--3719},
+    arxiv={2304.08984},
+    selected={true},
+    url={https://openaccess.thecvf.com/content/CVPR2023W/XAI4CV/papers/Tetkova_Robustness_of_Visual_Explanations_to_Common_Data_Augmentation_Methods_CVPRW_2023_paper.pdf},
+    abstract = {As the use of deep neural networks continues to grow, understanding their behaviour has become more crucial than ever. Post-hoc explainability methods are a potential solution, but their reliability is being called into question. Our research investigates the response of post-hoc visual explanations to naturally occurring transformations, often referred to as augmentations. We anticipate explanations to be invariant under certain transformations, such as changes to the colour map while responding in an equivariant manner to transformations like translation, object scaling, and rotation. We have found remarkable differences in robustness depending on the type of transformation, with some explainability methods (such as LRP composites and Guided Backprop) being more stable than others. We also explore the role of training with data augmentation. We provide evidence that explanations are typically less robust to augmentation than classification performance, regardless of whether data augmentation is used in training or not.},
+    abbr = {XAI4CV @ CVPR 2023},
+    code = {https://github.com/LenkaTetkova/robustness-of-explanations},
+    doi = {10.1109/CVPRW59228.2023.00381},
+    poster = {poster_robustness.pdf},
+}
+
+@article{alquist4,
+    title={Alquist 4.0: Towards Social Intelligence Using Generative Models and Dialogue Personalization},
+    author={Jakub Konrád, Jan Pichl, Petr Marek, Petr Lorenc, Van Duy Ta, Ondřej Kobza, Lenka Hýlová, Jan Šedivý},
+    year={2021},
+    journal={Alexa Prize Socialbot Grand Challenge},
+    publisher={Amazon},
+    volume={4},
+    arxiv={2109.07968},
+    selected={false},
+    url={https://assets.amazon.science/cc/3d/524b179d461bafaf83af7c5376a0/alquist-4.0-%20Towards%20social%20intelligence%20using%20generative%20models%20and%20dialogue%20personalization.pdf},
+    abstract = {The open domain-dialogue system Alquist has a goal to conduct a coherent and engaging conversation that can be considered as one of the benchmarks of social intelligence. The fourth version of the system, developed within the Alexa Prize Socialbot Grand Challenge 4, brings two main innovations. The first addresses coherence, and the second addresses the engagingness of the conversation. For innovations regarding coherence, we propose a novel hybrid approach combining hand-designed responses and a generative model. The proposed approach utilizes hand-designed dialogues, out-of-domain detection, and a neural response generator. Hand-designed dialogues walk the user through high-quality conversational flows. The out-of-domain detection recognizes that the user diverges from the predefined flow and prevents the system from producing a scripted response that might not make sense for unexpected user input. Finally, the neural response generator generates a response based on the context of the dialogue that correctly reacts to the unexpected user input and returns the dialogue to the boundaries of hand-designed dialogues. The innovations for engagement that we propose are mostly inspired by the famous exploration-exploitation dilemma. To conduct an engaging conversation with the dialogue partners, one has to learn their preferences and interests -- exploration. Moreover, to engage the partner, we have to utilize the knowledge we have already learned -- exploitation. In this work, we present the principles and inner workings of individual components of the open-domain dialogue system Alquist developed within the Alexa Prize Socialbot Grand Challenge 4 and the experiments we have conducted to evaluate them.},
+    abbr = {Technical report},
+    additional_info={*Winner* of Alexa Prize Socialbot Grand Challenge 4},
+}
+
+@article{jorgensen2024image,
+    author={J{\o}rgensen, Mikkel Godsk and T{\v{e}}tkov{\'a}, Lenka and Hansen, Lars Kai},
+  journal={Plos one},
+  volume={19},
+  number={5},
+  pages={e0301360},
+  year={2024},
+  publisher={Public Library of Science San Francisco, CA USA}arxiv={},
+    selected={false},
+	url={https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0301360&type=printable},    
+    doi={10.1371/journal.pone.0301360},
+    abstract = {Typical machine learning classification benchmark problems often ignore the full input data structures present in real-world classification problems. Here we aim to represent additional information as “hints” for classification. We show that under a specific realistic conditional independence assumption, the hint information can be included by late fusion. In two experiments involving image classification with hints taking the form of text metadata, we demonstrate the feasibility and performance of the fusion scheme.
+We fuse the output of pre-trained image classifiers with the output of pre-trained text models. We show that calibration of the pre-trained models is crucial for the performance of the fused model. We compare the performance of the fusion scheme with a mid-level fusion scheme based on support vector machines and find that these two methods tend to perform quite similarly, albeit the late fusion scheme has only negligible computational costs.},
+    abbr = {PLOS ONE},
+    code = {https://github.com/MikkelGodsk/ImageClassificationWithSymbolicHints},
+    preview={fusion.PNG},
+}
+
+@article{tetkova2024challenges,
+  title={Challenges in explaining deep learning models for data with biological variation},
+  author={T{\v{e}}tkov{\'a}, Lenka and Dreier, Erik Schou and Malm, Robin and Hansen, Lars Kai},
+  journal={arXiv preprint arXiv:2406.09981},
+  year={2024},
+  arxiv={2406.09981},
+  abbr={Preprint},
+  selected={false},
+  abstract = {Much machine learning research progress is based on developing models and evaluating them on a benchmark dataset (e.g., ImageNet for images). However, applying such benchmark-successful methods to real-world data often does not work as expected. This is particularly the case for biological data where we expect variability at multiple time and spatial scales. Typical benchmark data has simple, dominant semantics, such as a number, an object type, or a word. In contrast, biological samples often have multiple semantic components leading to complex and entangled signals. Complexity is added if the signal of interest is related to atypical states, e.g., disease, and if there is limited data available for learning.
+In this work, we focus on image classification of real-world biological data that are, indeed, different from standard images.
+We are using grain data and the goal is to detect diseases and damages, for example, "pink fusarium" and "skinned". Pink
+fusarium, skinned grains, and other diseases and damages are key factors in setting the price of grains or excluding dangerous grains from food production. Apart from challenges stemming from differences of the data from the standard toy datasets, we also present challenges that need to be overcome when explaining deep learning models. For example, explainability methods have many hyperparameters that can give different results, and the ones published in the papers do not work on dissimilar images. Other challenges are more general: problems with visualization of the explanations and their comparison
+since the magnitudes of their values differ from method to method. An open fundamental question also is: How to evaluate explanations? It is a non-trivial task because the "ground truth" is usually missing or ill-defined. Also, human annotators may create what they think is an explanation of the task at hand, yet the machine learning model might solve it in a different and perhaps counter-intuitive way. We discuss several of these challenges and evaluate various post-hoc explainability methods on
+grain data. We focus on robustness, quality of explanations, and similarity to particular "ground truth" annotations made by experts. The goal is to find the methods that overall perform well and could be used in this challenging task. We hope that the proposed pipeline would be used as a framework for evaluating explainability methods in specific use cases.},
+  poster = {poster_grains.pdf},
+  preview = {challenges.png},
+}
+
+@inproceedings{tetkova2024knowledge,
+  title={Knowledge Graphs and Explanations for Improving Detection of Diseases in Images of Grains},
+  author={T{\v{e}}tkov{\'a}, Lenka},
+  booktitle={xAI-2024 Late-breaking Work, Demos and Doctoral Consortium},
+  pages={433--440},
+  selected={false},
+  year={2024},
+  organization={CEUR-WS},
+  url={https://ceur-ws.org/Vol-3793/paper_55.pdf},
+  abstract={Many research works focus on benchmark datasets and overlook the issues appearing when attempting to use the methods in real-world applications. The application used in this work is the detection of diseases and damages in grain kernels from images. This dataset is very different from standard benchmark datasets and poses an additional challenge of biological variation in the data. The goal is to improve disease detection and introduce explainability into the process. We explore how knowledge graphs can be used to improve image classification by using existing metadata and to create collections of data depicting a specific concept. We identify challenges one faces when applying post-hoc explainability methods on data with biological variation and propose a workflow for the choice of the most suitable method for any application. Moreover, we evaluate the robustness of these methods to naturally occurring small changes in the input images. Finally, we explore the notion of convexity in representations of neural networks and its implications for the performance of the fine-tuned models and alignment to human representations.},
+  poster={Doctoral consortium poster.pdf},
+  preview={doctoral.png},
+}
+
+@inproceedings{tetkova2024knowledge,
+  title={Knowledge graphs for empirical concept retrieval},
+  author={T{\v{e}}tkov{\'a}, Lenka and Scheidt, Teresa Karen and Fogh, Maria Mandrup and J{\o}rgensen, Ellen Marie Gaunby and Nielsen, Finn {\AA}rup and Hansen, Lars Kai},
+  booktitle={World Conference on Explainable Artificial Intelligence},
+  pages={160--183},
+  year={2024},
+  organization={Springer},
+  arxiv={2404.07008},
+  selected={true},
+  code = {https://github.com/LenkaTetkova/Knowledge-Graphs-for-Empirical-Concept-Retrieval},
+  abbr = {xAI 2024},
+  abstract = {Concept-based explainable AI is promising as a tool to improve the understanding of complex models at the premises of a given user, viz.\ as a tool for personalized explainability. An important class of concept-based explainability methods is constructed with empirically defined concepts, indirectly defined through a set of positive and negative examples, as in the TCAV approach (Kim et al., 2018). While it is appealing to the user to avoid formal definitions of concepts and their operationalization, it can be challenging to establish relevant concept datasets. Here, we address this challenge using general knowledge graphs (such as, e.g., Wikidata or WordNet) for comprehensive concept definition and present a workflow for user-driven data collection in both text and image domains. The concepts derived from knowledge graphs are defined interactively, providing an opportunity for personalization and ensuring that the concepts reflect the user's intentions. We test the retrieved concept datasets on two concept-based explainability methods, namely concept activation vectors (CAVs) and concept activation regions (CARs) (Crabbe and van der Schaar, 2022). We show that CAVs and CARs based on these empirical concept datasets provide robust and accurate explanations. Importantly, we also find good alignment between the models' representations of concepts and the structure of knowledge graphs, i.e., human representations. This supports our conclusion that knowledge graph-based concepts are relevant for XAI.},
+  doi = {10.1007/978-3-031-63787-2_9},
+  preview={knowledge_graphs.png},
+}
+
+@inproceedings{dorszewski2024convexity,
+  title={Convexity Based Pruning of Speech Representation Models},
+  author={Dorszewski, Teresa and Tetkov{\'a}, Lenka and Hansen, Lars Kai},
+  booktitle={2024 IEEE 34th International Workshop on Machine Learning for Signal Processing (MLSP)},
+  pages={1--6},
+  year={2024},
+  organization={IEEE},
+  selected={true},
+  arxiv={2408.11858},
+  abstract = {Speech representation models based on the transformer architecture and trained by self-supervised learning have shown
+great promise for solving tasks such as speech and speaker
+recognition, keyword spotting, emotion detection, and more.
+Typically, it is found that larger models lead to better performance. However, the significant computational effort
+involved in such large transformer systems is a challenge
+for embedded and real-world applications. Recent work has
+shown that there is significant redundancy in the transformer
+models for NLP and massive layer pruning is feasible (Sajjad
+et al., 2023). Here, we investigate layer pruning in audio
+models. We base the pruning decision on a convexity criterion. Convexity of classification regions has recently been
+proposed as an indicator of subsequent fine-tuning performance in a range of application domains, including NLP and
+audio. In empirical investigations, we find a massive reduction in the computational effort with no loss of performance
+or even improvements in certain cases},
+  abbr = {IEEE MLSP 2024},
+  doi = {10.1109/MLSP58920.2024.10734716},
+  poster = {poster_mlsp.pdf},
+  url = {https://ieeexplore.ieee.org/abstract/document/10734716/},
+}
+
+@article{tetkova2024grain,
+  title={From Grain to Insight: Explainability in AI for Biological Data Analysis},
+  author={T{\v{e}}tkov{\'a}, Lenka},
+  year={2024},
+  publisher={Technical University of Denmark},
+  additional_info = {Doctoral thesis},
+  preview = {thesis.jpeg},
+  url={https://orbit.dtu.dk/files/383274553/Tetkova_PhD_thesis.pdf},
+  selected={false},
+  abstract={In the field of machine learning, a common focus is on benchmark datasets, which are standardized sets of data used to compare the performance of different methods. However, this thesis emphasizes the importance of considering real-world applications, specifically, the detection of diseases and damages in grain kernels using image data. This application presents unique challenges due to the biological variation inherent in the data, which differs significantly from standard benchmark datasets.
+
+The primary objective of this research is to enhance disease detection capabilities and incorporate explainability into the process, making it more transparent and understandable. To achieve this, we investigate the use of knowledge graphs, a tool that can leverage existing metadata to improve image classification and generate specific data collections.
+
+One of the key challenges we address is the application of post-hoc explainability methods to data with biological variation. We propose a workflow to guide the selection of the most appropriate method for any given application. Furthermore, we assess the resilience of these methods to minor, naturally occurring variations in input images.
+
+Lastly, we explore concept-based explainability and alignment of representations in machine learning models. We aim to make these models more understandable by relating their operations to high-level concepts. We also strive to align the model’s perception and processing of information with human cognitive processes. This exploration could provide valuable insights into how machine learning models can be more effectively aligned with human understanding.}
+}
+
+@article{dorszewski2024connecting,
+  title={Connecting Concept Convexity and Human-Machine Alignment in Deep Neural Networks},
+  author={Dorszewski, Teresa and T{\v{e}}tkov{\'a}, Lenka and Linhardt, Lorenz and Hansen, Lars Kai},
+  journal={Proceedings of the 6th Northern Lights Deep Learning Conference (NLDL)},
+  volume = 	 {265},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {07--09 Jan},
+  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v265/main/assets/dorszewski25a/dorszewski25a.pdf},
+  pages={41--50},
+  publisher={PMLR},
+  arxiv={2409.06362},
+  abbr={NLDL 2025},
+  year={2025},
+  url={https://proceedings.mlr.press/v265/dorszewski25a},
+  preview = {convexity_vs_oooa.png},
+  abstract = {Understanding how neural networks align with human cognitive processes is a crucial step toward developing more interpretable and reliable AI systems. Motivated by theories of human cognition, this study examines the relationship between convexity in
+neural network representations and human-machine alignment based on behavioral data. We identify a correlation between these two dimensions in pretrained and fine-tuned vision transformer models.
+Our findings suggest that the convex regions formed in latent spaces of neural networks to some extent align with human-defined categories and reflect the
+similarity relations humans use in cognitive tasks.
+While optimizing for alignment generally enhances convexity, increasing convexity through fine-tuning yields inconsistent effects on alignment, which suggests a complex relationship between the two. This
+study presents a first step toward understanding the relationship between the convexity of latent representations and human-machine alignment.},
+  selected={true},
+}
+
+@inproceedings{dorszewski2025redundant,
+  title={How Redundant Is the Transformer Stack in Speech Representation Models?},
+  author={Dorszewski, Teresa and Jacobsen, Albert Kj{\o}ller and T{\v{e}}tkov{\'a}, Lenka and Hansen, Lars Kai},
+  booktitle={ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={1--5},
+  year={2025},
+  organization={IEEE},
+  abbr = {ICASSP 2025},
+  selected={true},
+  url={https://ieeexplore.ieee.org/iel8/10887540/10887541/10887866.pdf?casa_token=wl3wZzOCAG4AAAAA:WWNjO03ZMVlz53liyP3z-jJdKbG6yoHf1KMvIyP3iAME3yqxOvcPS8z45G27sCPKzQ9gybItlw},
+  additional_info = {Also presented at 4th NeurIPS Efficient Natural Language and Speech Processing Workshop (ENLSP-IV 2024)},
+  arxiv={2409.16302},
+}
+
+@article{dorszewski2025,
+  title={From Colors to Classes: Emergence of Concepts in Vision Transformers},
+  author={Dorszewski, Teresa and T{\v{e}}tkov{\'a}, Lenka and Hansen, Lars Kai},
+  abbr={xAI 2025},
+  booktitle={World Conference on Explainable Artificial Intelligence},
+  year={2025},
+  code={https://github.com/teresa-sc/concepts_in_ViTs},
+  selected={true},
+  }
+
+@article{,
+    title={},
+    author={},
+    year={},
+    month={},
+    journal={},
+    pages={},
+    arxiv={},
+    selected={true},
+    url={},
+    abstract = {},
+    abbr = {},
+    code = {},
+    doi = {},
+    poster = {},
 }

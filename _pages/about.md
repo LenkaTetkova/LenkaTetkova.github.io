@@ -26,4 +26,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a postdoc at the Section for Cognitive Systems, DTU Compute. My research interests include concept-based explainability, exploring representations in hidden layers, human-machine alignment, and translating theory from cognitive science into the context of machine learning. I have a PhD from DTU Compute, under the supervision of Professor Lars Kai Hansen. The focus of my PhD was enhancing and explaining AI with a focus on biological data.
+I am a postdoctoral researcher at the [Section for Cognitive Systems](https://cogsys.compute.dtu.dk/), [Technical university of Denmark](https://www.dtu.dk/). My research interests include concept-based explainability, exploring representations in hidden layers, human-machine alignment, and translating theory from cognitive science into the context of machine learning. I have a PhD from DTU Compute, under the supervision of Professor Lars Kai Hansen. The focus of my PhD was enhancing and explaining AI with a focus on biological data.
