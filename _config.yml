@@ -272,7 +272,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Tětková]
+  last_name: [Tětková, Hýlová]
   first_name: [Lenka, L.]
 
   style: apa
