@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
         },{id: "nav-cv",
           title: "cv",
           description: "",
@@ -65,9 +58,16 @@ ninja.data = [{
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
             },},{id: "news-our-paper-from-colors-to-classes-emergence-of-concepts-in-vision-transformers-was-accepted-to-the-3rd-world-conference-on-explainable-artificial-intelligence-xai-2025",
-          title: 'Our paper “From Colors to Classes: Emergence of Concepts in Vision Transformers” was...',
+          title: 'Our paper From Colors to Classes: Emergence of Concepts in Vision Transformers was...',
           description: "",
           section: "News",},{
+        id: 'social-dblp',
+        title: 'DBLP',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://dblp.org/pid/345/1472.html", "_blank");
+        },
+      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
