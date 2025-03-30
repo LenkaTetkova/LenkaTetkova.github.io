@@ -51,6 +51,7 @@
 }
 
 @article{jorgensen2024image,
+	title={Image classification with symbolic hints using limited resources},
     author={J{\o}rgensen, Mikkel Godsk and T{\v{e}}tkov{\'a}, Lenka and Hansen, Lars Kai},
   journal={Plos one},
   volume={19},
@@ -203,7 +204,7 @@ study presents a first step toward understanding the relationship between the co
   abbr = {ICASSP 2025},
   selected={true},
   url={https://ieeexplore.ieee.org/iel8/10887540/10887541/10887866.pdf?casa_token=wl3wZzOCAG4AAAAA:WWNjO03ZMVlz53liyP3z-jJdKbG6yoHf1KMvIyP3iAME3yqxOvcPS8z45G27sCPKzQ9gybItlw},
-  additional_info = {Also presented at 4th NeurIPS Efficient Natural Language and Speech Processing Workshop (ENLSP-IV 2024) -- **Runner up for the best short paper award at the workshop.**},
+  additional_info = {. Also presented at 4th NeurIPS Efficient Natural Language and Speech Processing Workshop (ENLSP-IV 2024) -- **Runner up for the best short paper award at the workshop**},
   arxiv={2409.16302},
   abstract={Self-supervised speech representation models, particularly those leveraging transformer architectures, have demonstrated remarkable performance across various tasks such as speech recognition, speaker identification, and emotion detection. Recent studies on transformer models revealed high redundancy between layers and the potential for significant pruning, which we will investigate here for transformer-based speech representation models. We perform a detailed analysis of layer similarity in speech representation models using three similarity metrics: cosine similarity, centered kernel alignment, and mutual nearest-neighbor alignment. Our findings reveal a block-like structure of high similarity, suggesting two main processing steps and significant redundancy of layers. We demonstrate the effectiveness of pruning transformer-based speech representation models without the need for post-training, achieving up to 40% reduction in transformer layers while maintaining over 95% of the model’s predictive capacity. Furthermore, we employ a knowledge distillation method to substitute the entire transformer stack with mimicking layers, reducing the network size by 95-98% and the inference time by up to 94%. This substantial decrease in computational load occurs without considerable performance loss, suggesting that the transformer stack is almost completely redundant for downstream applications of speech representation models.},
   preview={redundancy.png},
