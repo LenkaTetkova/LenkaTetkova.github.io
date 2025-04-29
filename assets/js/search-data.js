@@ -60,6 +60,12 @@ ninja.data = [{
             },},{id: "news-our-paper-from-colors-to-classes-emergence-of-concepts-in-vision-transformers-was-accepted-to-the-3rd-world-conference-on-explainable-artificial-intelligence-xai-2025",
           title: 'Our paper From Colors to Classes: Emergence of Concepts in Vision Transformers was...',
           description: "",
+          section: "News",},{id: "news-our-paper-knowledge-graphs-for-empirical-concept-retrieval-originally-presented-at-the-2nd-world-conference-on-explainable-artificial-intelligence-xai-2024-was-accepted-for-presentation-at-the-1st-international-workshop-on-explainable-ai-and-knowledge-graphs-at-eswc-2025",
+          title: 'Our paper Knowledge Graphs for Empirical Concept Retrieval (originally presented at The 2nd...',
+          description: "",
+          section: "News",},{id: "news-our-parallel-session-latent-space-navigation-interpretation-probing-and-steering-was-accepted-to-the-d3a-conference-see-you-on-august-26-27-2025",
+          title: 'Our parallel session Latent space navigation - interpretation, probing and steering was accepted...',
+          description: "",
           section: "News",},{
         id: 'social-dblp',
         title: 'DBLP',
