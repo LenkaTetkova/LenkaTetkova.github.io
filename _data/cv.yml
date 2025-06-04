@@ -11,14 +11,14 @@
   contents:
     - title: PhD
       institution: Technical University of Denmark
-      year: 2024
+      year: 2021-2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+        - Supervised by Professor Lars Kai Hansen.
+        - Thesis "From Grain to Insight: Explainability in AI for Biological Data Analysis".
+#        - title: Description 3.
+#          contents:
+#            - Sub-description 1.
+#            - Sub-description 2.
  
 - title: Experience
   type: time_table
@@ -27,12 +27,12 @@
       institution: Technical University of Denmark
       year: 2024 - 
       description:
-        - Cognitive spaces -- next generation AI explainability
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+        - Project "Cognitive spaces -- next generation AI explainability"
+#        - Description 2.
+#        - title: Description 3.
+#          contents:
+#            - Sub-description 1.
+#            - Sub-description 2.
  
 #- title: Open Source Projects
 #  type: time_table
@@ -41,24 +41,24 @@
 #      year: 2015-now
 #      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 2024
-      items:
+#- title: Honors and Awards
+#  type: time_table
+#  contents:
+#    - year: 2024
+#      items:
         - 
         
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Explainable AI.
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - Concept-based explainability.
+        - Latent representations.
+    - title: Human-AI alignment.
+#      items:
+#        - Description 1.
+#        - Description 2.
 
 #- title: Other Interests
 #  type: list
