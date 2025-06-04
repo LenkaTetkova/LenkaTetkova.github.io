@@ -66,7 +66,17 @@ ninja.data = [{
           section: "News",},{id: "news-our-parallel-session-latent-space-navigation-interpretation-probing-and-steering-was-accepted-to-the-d3a-conference-see-you-on-august-26-27-2025",
           title: 'Our parallel session Latent space navigation - interpretation, probing and steering was accepted...',
           description: "",
+          section: "News",},{id: "news-i-am-delighted-to-give-a-flash-talk-at-ellis-unireps-speaker-series-on-20-june-2025-i-will-talk-about-our-paper-on-convex-decision-regions-in-deep-network-representations",
+          title: 'I am delighted to give a flash talk at ELLIS UniReps Speaker Series...',
+          description: "",
           section: "News",},{
+        id: 'social-bluesky',
+        title: 'Bluesky',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://bsky.app/profile/lenkatetkova.bsky.social", "_blank");
+        },
+      },{
         id: 'social-dblp',
         title: 'DBLP',
         section: 'Socials',
