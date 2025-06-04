@@ -3,7 +3,8 @@
   contents:
     - name: Full Name
       value: Lenka Tětková
-    - e-mail: lenhy [at] dtu [dot] dk
+    - name: E-mail 
+      value: lenhy [at] dtu [dot] dk
  #   - name: Languages
  #     value: Czech, English, French, Danish
 
@@ -48,12 +49,12 @@
 #            - Sub-description 2.
     - title: Visiting researcher
       institution: Fraunhofer Heinrich Hertz Institute
-      year: April -- July 2023
+      year: April - July 2023
       description:
         - Visiting Prof. Dr. Wojciech Samek and Dr. Sebastian Lapuschkin
     - title: Conversational AI Student Researcher
-      institutions: Czech Technical University
-      year: February 2020 -- May 2021
+      institution: Czech Technical University
+      year: February 2020 - May 2021
       description:
         - Working on methods for improving conversational AI.
         - In collaboration with the team "Alquist", the winner of Alexa Prize Socialbot Grand Challenge 4.
@@ -70,7 +71,7 @@
 #  contents:
 #    - year: 2024
 #      items:
-        - 
+#        - 
 - title: Community service
   type: nested_list
   contents:
