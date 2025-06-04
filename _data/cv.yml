@@ -16,7 +16,7 @@
       year: 2021-2024
       description:
         - Supervised by Professor Lars Kai Hansen.
-        - "Thesis 'From Grain to Insight: Explainability in AI for Biological Data Analysis'."
+        - "Thesis From Grain to Insight: Explainability in AI for Biological Data Analysis."
 #        - title: Description 3.
 #          contents:
 #            - Sub-description 1.
@@ -81,6 +81,7 @@
         - The Explainable AI for Computer Vision (XAI4CV) Workshop at CVPR 2024, 2025.
         - Special track “XAI for representational alignment” at The 3rd World Conference on eXplainable Artificial Intelligence 2025 (senior chair).
     - title: Reviewing
+      items:
         - NeurIPS 2025
         - ICASSP 2024, 2025
         - The 3rd World Conference on eXplainable Artificial Intelligence 2025
