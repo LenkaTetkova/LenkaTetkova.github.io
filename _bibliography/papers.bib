@@ -17,6 +17,59 @@
     poster={poster_convexity.pdf},
 }
 
+@article{dorszewski2025colors,
+  title={From Colors to Classes: Emergence of Concepts in Vision Transformers},
+  author={Dorszewski, Teresa and T{\v{e}}tkov{\'a}, Lenka and Jenssen, Robert and Hansen, Lars Kai and Wickstrøm, Kristoffer Knutsen},
+  abbr={xAI 2025},
+  booktitle={World Conference on Explainable Artificial Intelligence},
+  year={2025},
+  month={jul},
+  code={https://github.com/teresa-sc/concepts_in_ViTs},
+  selected={true},
+  arxiv={2503.24071},
+  abstract={Vision Transformers (ViTs) are increasingly utilized in various computer vision tasks due to their powerful representation capabilities. However, it remains understudied how ViTs process information layer by layer. Numerous studies have shown that convolutional neural networks (CNNs) extract features of increasing complexity throughout their layers, which is crucial for tasks like domain adaptation and transfer learning. ViTs, lacking the same inductive biases as CNNs, can potentially learn global dependencies from the first layers due to their attention mechanisms. Given the increasing importance of ViTs in computer vision, there is a need to improve the layer-wise understanding of ViTs. In this work, we present a novel, layer-wise analysis of concepts encoded in state-of-the-art ViTs using neuron labeling. Our findings reveal that ViTs encode concepts with increasing complexity throughout the network. Early layers primarily encode basic features such as colors and textures, while later layers represent more specific classes, including objects and animals. As the complexity of encoded concepts increases, the number of concepts represented in each layer also rises, reflecting a more diverse and specific set of features.
+Additionally, different pretraining strategies influence the quantity and category of encoded concepts, with finetuning to specific downstream tasks generally reducing the number of encoded concepts and shifting the concepts to more relevant categories.},
+preview={colors_to_concepts.png},
+  
+  }
+
+@inproceedings{dorszewski2025redundant,
+  title={How Redundant Is the Transformer Stack in Speech Representation Models?},
+  author={Dorszewski, Teresa and Jacobsen, Albert Kj{\o}ller and T{\v{e}}tkov{\'a}, Lenka and Hansen, Lars Kai},
+  booktitle={ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={1--5},
+  year={2025},
+  month={apr},
+  organization={IEEE},
+  abbr = {ICASSP 2025},
+  selected={true},
+  url={https://ieeexplore.ieee.org/iel8/10887540/10887541/10887866.pdf?casa_token=wl3wZzOCAG4AAAAA:WWNjO03ZMVlz53liyP3z-jJdKbG6yoHf1KMvIyP3iAME3yqxOvcPS8z45G27sCPKzQ9gybItlw},
+  additional_info = {. Also presented at 4th NeurIPS Efficient Natural Language and Speech Processing Workshop (ENLSP-IV 2024) -- **Runner up for the best short paper award at the workshop**},
+  arxiv={2409.16302},
+  abstract={Self-supervised speech representation models, particularly those leveraging transformer architectures, have demonstrated remarkable performance across various tasks such as speech recognition, speaker identification, and emotion detection. Recent studies on transformer models revealed high redundancy between layers and the potential for significant pruning, which we will investigate here for transformer-based speech representation models. We perform a detailed analysis of layer similarity in speech representation models using three similarity metrics: cosine similarity, centered kernel alignment, and mutual nearest-neighbor alignment. Our findings reveal a block-like structure of high similarity, suggesting two main processing steps and significant redundancy of layers. We demonstrate the effectiveness of pruning transformer-based speech representation models without the need for post-training, achieving up to 40% reduction in transformer layers while maintaining over 95% of the model’s predictive capacity. Furthermore, we employ a knowledge distillation method to substitute the entire transformer stack with mimicking layers, reducing the network size by 95-98% and the inference time by up to 94%. This substantial decrease in computational load occurs without considerable performance loss, suggesting that the transformer stack is almost completely redundant for downstream applications of speech representation models.},
+  preview={redundancy.png},
+  video={ICASSP_presentation_5825.mp4},
+  poster={poster_redundancy.pdf},
+  google_scholar_id={M3ejUd6NZC8C},
+}
+
+@inproceedings{tetkova2024knowledge,
+  title={Knowledge graphs for empirical concept retrieval},
+  author={T{\v{e}}tkov{\'a}, Lenka and Scheidt, Teresa Karen and Fogh, Maria Mandrup and J{\o}rgensen, Ellen Marie Gaunby and Nielsen, Finn {\AA}rup and Hansen, Lars Kai},
+  booktitle={World Conference on Explainable Artificial Intelligence},
+  pages={160--183},
+  year={2024},
+  month={jul},
+  organization={Springer},
+  arxiv={2404.07008},
+  selected={true},
+  code = {https://github.com/LenkaTetkova/Knowledge-Graphs-for-Empirical-Concept-Retrieval},
+  abbr = {xAI 2024},
+  abstract = {Concept-based explainable AI is promising as a tool to improve the understanding of complex models at the premises of a given user, viz.\ as a tool for personalized explainability. An important class of concept-based explainability methods is constructed with empirically defined concepts, indirectly defined through a set of positive and negative examples, as in the TCAV approach (Kim et al., 2018). While it is appealing to the user to avoid formal definitions of concepts and their operationalization, it can be challenging to establish relevant concept datasets. Here, we address this challenge using general knowledge graphs (such as, e.g., Wikidata or WordNet) for comprehensive concept definition and present a workflow for user-driven data collection in both text and image domains. The concepts derived from knowledge graphs are defined interactively, providing an opportunity for personalization and ensuring that the concepts reflect the user's intentions. We test the retrieved concept datasets on two concept-based explainability methods, namely concept activation vectors (CAVs) and concept activation regions (CARs) (Crabbe and van der Schaar, 2022). We show that CAVs and CARs based on these empirical concept datasets provide robust and accurate explanations. Importantly, we also find good alignment between the models' representations of concepts and the structure of knowledge graphs, i.e., human representations. This supports our conclusion that knowledge graph-based concepts are relevant for XAI.},
+  doi = {10.1007/978-3-031-63787-2_9},
+  preview={knowledge_graphs.png},
+}
+
 @article{tetkova2023robustness,
     title={Robustness of Visual Explanations to Common Data Augmentation Methods},
     author={Lenka Tětková and Lars Kai Hansen},
@@ -33,6 +86,76 @@
     doi = {10.1109/CVPRW59228.2023.00381},
     poster = {poster_robustness.pdf},
 }
+
+
+@inproceedings{linhardt2025cat,
+  title={Cat, Rat, Meow: On the Alignment of Language Model and Human Term-Similarity Judgments},
+  author={Linhardt, Lorenz and Neuh{\"a}user, Tom and T{\v{e}}tkov{\'a}, Lenka and Eberle, Oliver},
+  booktitle={Second Workshop on Representational Alignment at ICLR 2025},
+  pdf={https://openreview.net/pdf?id=wIcg6M2Dvj},
+  year={2025},
+  month={apr},
+  abbr={Preprint},
+  selected={true},
+  preview={SLM.png},
+  abstract={Small and mid-sized generative language models have gained increasing attention. Their size and availability make them amenable to be analyzed at a behavioral as well as a representational level, allowing investigations of how these levels interact. We evaluate 32 publicly available language models for their representational and behavioral alignment with human similarity judgments on a word triplet task. This provides a novel evaluation setting to probe semantic associations in language beyond common pairwise comparisons. We find that (1) even the representations of small language models can achieve human-level alignment, (2) instruction-tuned model variants can exhibit substantially increased agreement, (3) the pattern of alignment across layers is highly model dependent, and (4) alignment based on models' behavioral responses is highly dependent on model size, matching their representational alignment only for the largest evaluated models.},
+}
+
+@article{dorszewski2024connecting,
+  title={Connecting Concept Convexity and Human-Machine Alignment in Deep Neural Networks},
+  author={Dorszewski, Teresa and T{\v{e}}tkov{\'a}, Lenka and Linhardt, Lorenz and Hansen, Lars Kai},
+  journal={Proceedings of the 6th Northern Lights Deep Learning Conference (NLDL)},
+  volume = 	 {265},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {jan},
+  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v265/main/assets/dorszewski25a/dorszewski25a.pdf},
+  pages={41--50},
+  publisher={PMLR},
+  arxiv={2409.06362},
+  abbr={NLDL 2025},
+  year={2025},
+  url={https://proceedings.mlr.press/v265/dorszewski25a},
+  preview = {convexity_vs_oooa.png},
+  abstract = {Understanding how neural networks align with human cognitive processes is a crucial step toward developing more interpretable and reliable AI systems. Motivated by theories of human cognition, this study examines the relationship between convexity in
+neural network representations and human-machine alignment based on behavioral data. We identify a correlation between these two dimensions in pretrained and fine-tuned vision transformer models.
+Our findings suggest that the convex regions formed in latent spaces of neural networks to some extent align with human-defined categories and reflect the
+similarity relations humans use in cognitive tasks.
+While optimizing for alignment generally enhances convexity, increasing convexity through fine-tuning yields inconsistent effects on alignment, which suggests a complex relationship between the two. This
+study presents a first step toward understanding the relationship between the convexity of latent representations and human-machine alignment.},
+  selected={true},
+  poster={poster_nldl.pdf},
+}
+
+@inproceedings{dorszewski2024convexity,
+  title={Convexity Based Pruning of Speech Representation Models},
+  author={Dorszewski, Teresa and Tetkov{\'a}, Lenka and Hansen, Lars Kai},
+  booktitle={2024 IEEE 34th International Workshop on Machine Learning for Signal Processing (MLSP)},
+  pages={1--6},
+  year={2024},
+  month={sep},
+  organization={IEEE},
+  selected={true},
+  arxiv={2408.11858},
+  abstract = {Speech representation models based on the transformer architecture and trained by self-supervised learning have shown
+great promise for solving tasks such as speech and speaker
+recognition, keyword spotting, emotion detection, and more.
+Typically, it is found that larger models lead to better performance. However, the significant computational effort
+involved in such large transformer systems is a challenge
+for embedded and real-world applications. Recent work has
+shown that there is significant redundancy in the transformer
+models for NLP and massive layer pruning is feasible (Sajjad
+et al., 2023). Here, we investigate layer pruning in audio
+models. We base the pruning decision on a convexity criterion. Convexity of classification regions has recently been
+proposed as an indicator of subsequent fine-tuning performance in a range of application domains, including NLP and
+audio. In empirical investigations, we find a massive reduction in the computational effort with no loss of performance
+or even improvements in certain cases},
+  abbr = {IEEE MLSP 2024},
+  doi = {10.1109/MLSP58920.2024.10734716},
+  poster = {poster_mlsp.pdf},
+  url = {https://ieeexplore.ieee.org/abstract/document/10734716/},
+}
+
+
 
 @article{alquist4,
     title={Alquist 4.0: Towards Social Intelligence Using Generative Models and Dialogue Personalization},
@@ -104,51 +227,6 @@ grain data. We focus on robustness, quality of explanations, and similarity to p
   preview={doctoral.png},
 }
 
-@inproceedings{tetkova2024knowledge,
-  title={Knowledge graphs for empirical concept retrieval},
-  author={T{\v{e}}tkov{\'a}, Lenka and Scheidt, Teresa Karen and Fogh, Maria Mandrup and J{\o}rgensen, Ellen Marie Gaunby and Nielsen, Finn {\AA}rup and Hansen, Lars Kai},
-  booktitle={World Conference on Explainable Artificial Intelligence},
-  pages={160--183},
-  year={2024},
-  month={jul},
-  organization={Springer},
-  arxiv={2404.07008},
-  selected={true},
-  code = {https://github.com/LenkaTetkova/Knowledge-Graphs-for-Empirical-Concept-Retrieval},
-  abbr = {xAI 2024},
-  abstract = {Concept-based explainable AI is promising as a tool to improve the understanding of complex models at the premises of a given user, viz.\ as a tool for personalized explainability. An important class of concept-based explainability methods is constructed with empirically defined concepts, indirectly defined through a set of positive and negative examples, as in the TCAV approach (Kim et al., 2018). While it is appealing to the user to avoid formal definitions of concepts and their operationalization, it can be challenging to establish relevant concept datasets. Here, we address this challenge using general knowledge graphs (such as, e.g., Wikidata or WordNet) for comprehensive concept definition and present a workflow for user-driven data collection in both text and image domains. The concepts derived from knowledge graphs are defined interactively, providing an opportunity for personalization and ensuring that the concepts reflect the user's intentions. We test the retrieved concept datasets on two concept-based explainability methods, namely concept activation vectors (CAVs) and concept activation regions (CARs) (Crabbe and van der Schaar, 2022). We show that CAVs and CARs based on these empirical concept datasets provide robust and accurate explanations. Importantly, we also find good alignment between the models' representations of concepts and the structure of knowledge graphs, i.e., human representations. This supports our conclusion that knowledge graph-based concepts are relevant for XAI.},
-  doi = {10.1007/978-3-031-63787-2_9},
-  preview={knowledge_graphs.png},
-}
-
-@inproceedings{dorszewski2024convexity,
-  title={Convexity Based Pruning of Speech Representation Models},
-  author={Dorszewski, Teresa and Tetkov{\'a}, Lenka and Hansen, Lars Kai},
-  booktitle={2024 IEEE 34th International Workshop on Machine Learning for Signal Processing (MLSP)},
-  pages={1--6},
-  year={2024},
-  month={sep},
-  organization={IEEE},
-  selected={true},
-  arxiv={2408.11858},
-  abstract = {Speech representation models based on the transformer architecture and trained by self-supervised learning have shown
-great promise for solving tasks such as speech and speaker
-recognition, keyword spotting, emotion detection, and more.
-Typically, it is found that larger models lead to better performance. However, the significant computational effort
-involved in such large transformer systems is a challenge
-for embedded and real-world applications. Recent work has
-shown that there is significant redundancy in the transformer
-models for NLP and massive layer pruning is feasible (Sajjad
-et al., 2023). Here, we investigate layer pruning in audio
-models. We base the pruning decision on a convexity criterion. Convexity of classification regions has recently been
-proposed as an indicator of subsequent fine-tuning performance in a range of application domains, including NLP and
-audio. In empirical investigations, we find a massive reduction in the computational effort with no loss of performance
-or even improvements in certain cases},
-  abbr = {IEEE MLSP 2024},
-  doi = {10.1109/MLSP58920.2024.10734716},
-  poster = {poster_mlsp.pdf},
-  url = {https://ieeexplore.ieee.org/abstract/document/10734716/},
-}
 
 @article{tetkova2024grain,
   title={From Grain to Insight: Explainability in AI for Biological Data Analysis},
@@ -169,76 +247,3 @@ One of the key challenges we address is the application of post-hoc explainabili
 Lastly, we explore concept-based explainability and alignment of representations in machine learning models. We aim to make these models more understandable by relating their operations to high-level concepts. We also strive to align the model’s perception and processing of information with human cognitive processes. This exploration could provide valuable insights into how machine learning models can be more effectively aligned with human understanding.}
 }
 
-@article{dorszewski2024connecting,
-  title={Connecting Concept Convexity and Human-Machine Alignment in Deep Neural Networks},
-  author={Dorszewski, Teresa and T{\v{e}}tkov{\'a}, Lenka and Linhardt, Lorenz and Hansen, Lars Kai},
-  journal={Proceedings of the 6th Northern Lights Deep Learning Conference (NLDL)},
-  volume = 	 {265},
-  series = 	 {Proceedings of Machine Learning Research},
-  month = 	 {jan},
-  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v265/main/assets/dorszewski25a/dorszewski25a.pdf},
-  pages={41--50},
-  publisher={PMLR},
-  arxiv={2409.06362},
-  abbr={NLDL 2025},
-  year={2025},
-  url={https://proceedings.mlr.press/v265/dorszewski25a},
-  preview = {convexity_vs_oooa.png},
-  abstract = {Understanding how neural networks align with human cognitive processes is a crucial step toward developing more interpretable and reliable AI systems. Motivated by theories of human cognition, this study examines the relationship between convexity in
-neural network representations and human-machine alignment based on behavioral data. We identify a correlation between these two dimensions in pretrained and fine-tuned vision transformer models.
-Our findings suggest that the convex regions formed in latent spaces of neural networks to some extent align with human-defined categories and reflect the
-similarity relations humans use in cognitive tasks.
-While optimizing for alignment generally enhances convexity, increasing convexity through fine-tuning yields inconsistent effects on alignment, which suggests a complex relationship between the two. This
-study presents a first step toward understanding the relationship between the convexity of latent representations and human-machine alignment.},
-  selected={true},
-  poster={poster_nldl.pdf},
-}
-
-@inproceedings{dorszewski2025redundant,
-  title={How Redundant Is the Transformer Stack in Speech Representation Models?},
-  author={Dorszewski, Teresa and Jacobsen, Albert Kj{\o}ller and T{\v{e}}tkov{\'a}, Lenka and Hansen, Lars Kai},
-  booktitle={ICASSP 2025-2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
-  pages={1--5},
-  year={2025},
-  month={apr},
-  organization={IEEE},
-  abbr = {ICASSP 2025},
-  selected={true},
-  url={https://ieeexplore.ieee.org/iel8/10887540/10887541/10887866.pdf?casa_token=wl3wZzOCAG4AAAAA:WWNjO03ZMVlz53liyP3z-jJdKbG6yoHf1KMvIyP3iAME3yqxOvcPS8z45G27sCPKzQ9gybItlw},
-  additional_info = {. Also presented at 4th NeurIPS Efficient Natural Language and Speech Processing Workshop (ENLSP-IV 2024) -- **Runner up for the best short paper award at the workshop**},
-  arxiv={2409.16302},
-  abstract={Self-supervised speech representation models, particularly those leveraging transformer architectures, have demonstrated remarkable performance across various tasks such as speech recognition, speaker identification, and emotion detection. Recent studies on transformer models revealed high redundancy between layers and the potential for significant pruning, which we will investigate here for transformer-based speech representation models. We perform a detailed analysis of layer similarity in speech representation models using three similarity metrics: cosine similarity, centered kernel alignment, and mutual nearest-neighbor alignment. Our findings reveal a block-like structure of high similarity, suggesting two main processing steps and significant redundancy of layers. We demonstrate the effectiveness of pruning transformer-based speech representation models without the need for post-training, achieving up to 40% reduction in transformer layers while maintaining over 95% of the model’s predictive capacity. Furthermore, we employ a knowledge distillation method to substitute the entire transformer stack with mimicking layers, reducing the network size by 95-98% and the inference time by up to 94%. This substantial decrease in computational load occurs without considerable performance loss, suggesting that the transformer stack is almost completely redundant for downstream applications of speech representation models.},
-  preview={redundancy.png},
-  video={ICASSP_presentation_5825.mp4},
-  poster={poster_redundancy.pdf},
-  google_scholar_id={M3ejUd6NZC8C},
-}
-
-@article{dorszewski2025colors,
-  title={From Colors to Classes: Emergence of Concepts in Vision Transformers},
-  author={Dorszewski, Teresa and T{\v{e}}tkov{\'a}, Lenka and Jenssen, Robert and Hansen, Lars Kai and Wickstrøm, Kristoffer Knutsen},
-  abbr={xAI 2025},
-  booktitle={World Conference on Explainable Artificial Intelligence},
-  year={2025},
-  month={jul},
-  code={https://github.com/teresa-sc/concepts_in_ViTs},
-  selected={true},
-  arxiv={2503.24071},
-  abstract={Vision Transformers (ViTs) are increasingly utilized in various computer vision tasks due to their powerful representation capabilities. However, it remains understudied how ViTs process information layer by layer. Numerous studies have shown that convolutional neural networks (CNNs) extract features of increasing complexity throughout their layers, which is crucial for tasks like domain adaptation and transfer learning. ViTs, lacking the same inductive biases as CNNs, can potentially learn global dependencies from the first layers due to their attention mechanisms. Given the increasing importance of ViTs in computer vision, there is a need to improve the layer-wise understanding of ViTs. In this work, we present a novel, layer-wise analysis of concepts encoded in state-of-the-art ViTs using neuron labeling. Our findings reveal that ViTs encode concepts with increasing complexity throughout the network. Early layers primarily encode basic features such as colors and textures, while later layers represent more specific classes, including objects and animals. As the complexity of encoded concepts increases, the number of concepts represented in each layer also rises, reflecting a more diverse and specific set of features.
-Additionally, different pretraining strategies influence the quantity and category of encoded concepts, with finetuning to specific downstream tasks generally reducing the number of encoded concepts and shifting the concepts to more relevant categories.},
-preview={colors_to_concepts.png},
-  
-  }
-
-@inproceedings{linhardt2025cat,
-  title={Cat, Rat, Meow: On the Alignment of Language Model and Human Term-Similarity Judgments},
-  author={Linhardt, Lorenz and Neuh{\"a}user, Tom and T{\v{e}}tkov{\'a}, Lenka and Eberle, Oliver},
-  booktitle={Second Workshop on Representational Alignment at ICLR 2025},
-  pdf={https://openreview.net/pdf?id=wIcg6M2Dvj},
-  year={2025},
-  month={apr},
-  abbr={Preprint},
-  selected={true},
-  preview={SLM.png},
-  abstract={Small and mid-sized generative language models have gained increasing attention. Their size and availability make them amenable to be analyzed at a behavioral as well as a representational level, allowing investigations of how these levels interact. We evaluate 32 publicly available language models for their representational and behavioral alignment with human similarity judgments on a word triplet task. This provides a novel evaluation setting to probe semantic associations in language beyond common pairwise comparisons. We find that (1) even the representations of small language models can achieve human-level alignment, (2) instruction-tuned model variants can exhibit substantially increased agreement, (3) the pattern of alignment across layers is highly model dependent, and (4) alignment based on models' behavioral responses is highly dependent on model size, matching their representational alignment only for the largest evaluated models.},
-}
