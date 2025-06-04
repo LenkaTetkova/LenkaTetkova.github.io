@@ -3,8 +3,9 @@
   contents:
     - name: Full Name
       value: Lenka Tětková
-    - name: Languages
-      value: Czech, English, French, Danish
+    - e-mail: lenhy [at] dtu [dot] dk
+ #   - name: Languages
+ #     value: Czech, English, French, Danish
 
 - title: Education
   type: time_table
@@ -14,11 +15,23 @@
       year: 2021-2024
       description:
         - Supervised by Professor Lars Kai Hansen.
-        - Thesis "From Grain to Insight: Explainability in AI for Biological Data Analysis".
+        - 'Thesis "From Grain to Insight: Explainability in AI for Biological Data Analysis"'.
 #        - title: Description 3.
 #          contents:
 #            - Sub-description 1.
 #            - Sub-description 2.
+    - title: MSc.
+      institution: Charles University
+      year: 2018-2021
+      description:
+        - Master degree in Mathematical Analysis.
+    - title: BSc
+      institution: Charles University
+      year: 2015-2018
+      description:
+        - Bachelor degree in General Mathematics.
+    
+    
  
 - title: Experience
   type: time_table
@@ -33,6 +46,17 @@
 #          contents:
 #            - Sub-description 1.
 #            - Sub-description 2.
+    - title: Visiting researcher
+      institution: Fraunhofer Heinrich Hertz Institute
+      year: April -- July 2023
+      description:
+        - Visiting Prof. Dr. Wojciech Samek and Dr. Sebastian Lapuschkin
+    - title: Conversational AI Student Researcher
+      institutions: Czech Technical University
+      year: February 2020 -- May 2021
+      description:
+        - Working on methods for improving conversational AI.
+        - In collaboration with the team "Alquist", the winner of Alexa Prize Socialbot Grand Challenge 4.
  
 #- title: Open Source Projects
 #  type: time_table
@@ -47,6 +71,22 @@
 #    - year: 2024
 #      items:
         - 
+- title: Community service
+  type: nested_list
+  contents:
+    - title: Organizing
+      items:
+        -  Parallel session “Latent space navigation – interpretation, probing and steering” at Danish Digitalization, Data Science and AI (D3A) 3.0, August 2025.
+        - The Explainable AI for Computer Vision (XAI4CV) Workshop at CVPR 2024, 2025.
+        - Special track “XAI for representational alignment” at The 3rd World Conference on eXplainable Artificial Intelligence 2025 (senior chair).
+    - title: Reviewing
+        - NeurIPS 2025
+        - ICASSP 2024, 2025
+        - The 3rd World Conference on eXplainable Artificial Intelligence 2025
+        - MLSP 2024
+        - NLDL 2025
+        - ICANN 2023, 2024
+        - 'Workshops: Re-Align at ICLR 2025; XAI in Action at NeurIPS 2023, 2024; XAI4CV at CVPR 2024, 2025'
         
 - title: Academic Interests
   type: nested_list
