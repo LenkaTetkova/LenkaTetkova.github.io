@@ -5,5 +5,8 @@ repo_description_lines_max: 2
 
 github_repos:
   - LenkaTetkova/Convexity-of-representations
+  - LenkaTetkova/nnconvexity
+  - LenkaTetkova/Latent-space-navigation
   - LenkaTetkova/Knowledge-Graphs-for-Empirical-Concept-Retrieval
   - LenkaTetkova/robustness-of-explanations
+  - LenkaTetkova/Challenges-in-explaining-deep-learning-models-for-data-with-biological-variation
