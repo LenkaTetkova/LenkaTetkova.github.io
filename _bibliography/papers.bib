@@ -28,10 +28,11 @@
   code = {https://github.com/gjoelbye/vit-mental-rotation},
   selected={true},
   url={https://arxiv.org/abs/2509.15271},
-  preview={mental_rotation.pdf},
+  preview={mental_rotation.png},
   abstract={Mental rotation is a key test of spatial reasoning in humans and has been central to understanding how perception supports cognition. Despite the success of modern vision transformers, it is still unclear how well these models develop similar abilities. In this work, we present a systematic evaluation of ViT, CLIP, DINOv2, and DINOv3 across a range of mental-rotation tasks, from simple block structures similar to those used by Shepard and Metzler to study human cognition, to more complex block figures, three types of text, and photo-realistic objects. By probing model representations layer by layer, we examine where and how these networks succeed. We find that i) self-supervised ViTs capture geometric structure better than supervised ViTs; ii) intermediate layers perform better than final layers; iii) task difficulty increases with rotation complexity and occlusion, mirroring human reaction times and suggesting similar
 constraints in embedding space representations.},
   abbr={Preprint},
+  arxiv={2509.15271},
 }
 
 @inproceedings{dorszewski2025colors,
@@ -46,6 +47,7 @@ constraints in embedding space representations.},
   arxiv={2503.24071},
   abstract={Vision Transformers (ViTs) are increasingly utilized in various computer vision tasks due to their powerful representation capabilities. However, it remains understudied how ViTs process information layer by layer. Numerous studies have shown that convolutional neural networks (CNNs) extract features of increasing complexity throughout their layers, which is crucial for tasks like domain adaptation and transfer learning. ViTs, lacking the same inductive biases as CNNs, can potentially learn global dependencies from the first layers due to their attention mechanisms. Given the increasing importance of ViTs in computer vision, there is a need to improve the layer-wise understanding of ViTs. In this work, we present a novel, layer-wise analysis of concepts encoded in state-of-the-art ViTs using neuron labeling. Our findings reveal that ViTs encode concepts with increasing complexity throughout the network. Early layers primarily encode basic features such as colors and textures, while later layers represent more specific classes, including objects and animals. As the complexity of encoded concepts increases, the number of concepts represented in each layer also rises, reflecting a more diverse and specific set of features.
 Additionally, different pretraining strategies influence the quantity and category of encoded concepts, with finetuning to specific downstream tasks generally reducing the number of encoded concepts and shifting the concepts to more relevant categories.},
+  additional_info = {. Won the **best poster award** at Danish Digitalization, Data Science and AI 3.0 (D3A 2025).},
   preview={colors_to_concepts.png},
   video={https://youtu.be/pSPuvpABKbM?si=epECim1EI-uc4pGI},
   poster={poster_ColorsToClasses.pdf}
@@ -102,6 +104,7 @@ Additionally, different pretraining strategies influence the quantity and catego
     code = {https://github.com/LenkaTetkova/robustness-of-explanations},
     doi = {10.1109/CVPRW59228.2023.00381},
     poster = {poster_robustness.pdf},
+    preview={robustness.png},
 }
 
 
@@ -112,7 +115,7 @@ Additionally, different pretraining strategies influence the quantity and catego
   pdf={https://openreview.net/pdf?id=wIcg6M2Dvj},
   year={2025},
   month={apr},
-  abbr={Preprint},
+  abbr={Re-Align @ ICLR 2025},
   selected={true},
   preview={SLM.png},
   abstract={Small and mid-sized generative language models have gained increasing attention. Their size and availability make them amenable to be analyzed at a behavioral as well as a representational level, allowing investigations of how these levels interact. We evaluate 32 publicly available language models for their representational and behavioral alignment with human similarity judgments on a word triplet task. This provides a novel evaluation setting to probe semantic associations in language beyond common pairwise comparisons. We find that (1) even the representations of small language models can achieve human-level alignment, (2) instruction-tuned model variants can exhibit substantially increased agreement, (3) the pattern of alignment across layers is highly model dependent, and (4) alignment based on models' behavioral responses is highly dependent on model size, matching their representational alignment only for the largest evaluated models.},
@@ -145,7 +148,7 @@ study presents a first step toward understanding the relationship between the co
 
 @inproceedings{dorszewski2024convexity,
   title={Convexity Based Pruning of Speech Representation Models},
-  author={Dorszewski, Teresa and Tetkov{\'a}, Lenka and Hansen, Lars Kai},
+  author={Dorszewski, Teresa and T{\v{e}}tkov{\'a}, Lenka and Hansen, Lars Kai},
   booktitle={2024 IEEE 34th International Workshop on Machine Learning for Signal Processing (MLSP)},
   pages={1--6},
   year={2024},
@@ -171,6 +174,7 @@ or even improvements in certain cases},
   poster = {poster_mlsp.pdf},
   url = {https://ieeexplore.ieee.org/abstract/document/10734716/},
   video = {https://youtu.be/pSPuvpABKbM?si=epECim1EI-uc4pGI},
+  preview={convexity_pruning.png},
 }
 
 
@@ -219,7 +223,7 @@ We fuse the output of pre-trained image classifiers with the output of pre-train
   number={10},
   pages={e0333965},
   year={2025},
-  month={sep},
+  month={oct},
   publisher={Public Library of Science San Francisco, CA USA},  
   arxiv={2406.09981},
   abbr = {PloS one},
@@ -255,7 +259,7 @@ We discuss several of these challenges and evaluate various post-hoc explainabil
 @article{tetkova2024grain,
   title={From Grain to Insight: Explainability in AI for Biological Data Analysis},
   author={T{\v{e}}tkov{\'a}, Lenka},
-  year={2025},
+  year={2024},
   month={oct},
   publisher={Technical University of Denmark},
   additional_info = {Doctoral thesis},
