@@ -98,6 +98,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-challenges-in-explaining-deep-learning-models-for-data-with-biological-variation-got-published-in-plos-one-the-paper-was-created-in-collaboration-with-foss-analytical-a-s-and-explores-applying-post-hoc-explainability-methods-on-biological-data-specifically-images-of-grains-presents-rarely-discussed-challenges-and-offers-a-framework-for-evaluation-of-the-methods",
           title: 'Our paper Challenges in explaining deep learning models for data with biological variation...',
           description: "",
+          section: "News",},{id: "news-on-december-2nd-i-ll-be-at-the-ellis-unconference-presenting-at-the-poster-session-our-paper-on-convex-decision-regions-in-deep-network-representations-it-would-be-great-to-see-you-there-and-get-a-chance-to-talk-in-person-get-more-info-and-register-to-attend-at-https-eurips-cc-ellis",
+          title: 'On December 2nd, I’ll be at the ELLIS UnConference presenting at the Poster...',
+          description: "",
           section: "News",},{
         id: 'social-bluesky',
         title: 'Bluesky',
