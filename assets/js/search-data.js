@@ -85,8 +85,11 @@ ninja.data = [{
           section: "News",},{id: "news-i-am-co-organizing-the-𝟱𝘁𝗵-𝗫𝗔𝗜𝟰𝗖𝗩-𝗪𝗼𝗿𝗸𝘀𝗵𝗼𝗽-at-cvpr-2026",
           title: 'I am co-organizing the 𝟱𝘁𝗵 𝗫𝗔𝗜𝟰𝗖𝗩 𝗪𝗼𝗿𝗸𝘀𝗵𝗼𝗽  at CVPR 2026.',
           description: "",
-          section: "News",},{id: "news-our-paper-large-vision-models-can-solve-mental-rotation-problems-was-accepted-to-icassp-2026-take-a-look-at-our-more-approachable-medium-post-about-the-paper",
+          section: "News",},{id: "news-our-paper-large-vision-models-can-solve-mental-rotation-problems-was-accepted-to-icassp-2026-take-a-look-at-our-more-approachable-medium-post-about-the-paper-it-is-also-selected-for-an-oral-presentation-at-the-mlsp-l19-multimodal-and-contrastive-representation-learning-session",
           title: 'Our paper Large Vision Models Can Solve Mental Rotation Problems was accepted to...',
+          description: "",
+          section: "News",},{id: "news-i-gave-a-talk-at-foss-analytical-a-s-about-explainability-in-deep-learning-covering-our-paper-challenges-in-explaining-deep-learning-models-for-data-with-biological-variation-a-result-of-my-phd-collaboration-with-foss-and-our-work-on-convex-decision-regions-in-deep-network-representations-published-in-nature-communications",
+          title: 'I gave a talk at FOSS Analytical A/S about explainability in deep learning...',
           description: "",
           section: "News",},{
         id: 'social-bluesky',
