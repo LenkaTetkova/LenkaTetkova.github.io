@@ -91,6 +91,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-gave-a-talk-at-foss-analytical-a-s-about-explainability-in-deep-learning-covering-our-paper-challenges-in-explaining-deep-learning-models-for-data-with-biological-variation-a-result-of-my-phd-collaboration-with-foss-and-our-work-on-convex-decision-regions-in-deep-network-representations-published-in-nature-communications",
           title: 'I gave a talk at FOSS Analytical A/S about explainability in deep learning...',
           description: "",
+          section: "News",},{id: "news-i-was-invited-to-give-a-talk-at-the-9th-international-symposium-on-ai-verification-saiv-2026-co-located-with-the-federated-logic-conference-floc-in-lisbon-on-july-24-25-2026-my-talk-latent-space-navigation-interpretation-probing-and-steering-will-build-on-the-parallel-session-i-co-organised-at-the-d3a-conference-last-year-slides-and-hands-on-notebooks-are-available-on-github",
+          title: 'I was invited to give a talk at the 9th International Symposium on...',
+          description: "",
           section: "News",},{
         id: 'social-bluesky',
         title: 'Bluesky',
