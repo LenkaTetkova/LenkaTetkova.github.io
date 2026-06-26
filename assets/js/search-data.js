@@ -87,6 +87,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-was-invited-to-give-a-talk-at-the-9th-international-symposium-on-ai-verification-saiv-2026-co-located-with-the-federated-logic-conference-floc-in-lisbon-on-july-24-25-2026-my-talk-latent-space-navigation-interpretation-probing-and-steering-will-build-on-the-parallel-session-i-co-organised-at-the-d3a-conference-last-year-slides-and-hands-on-notebooks-are-available-on-github",
           title: 'I was invited to give a talk at the 9th International Symposium on...',
           description: "",
+          section: "News",},{id: "news-i-am-honoured-to-have-been-awarded-a-ddsa-postdoctoral-fellowship-for-my-project-geometry-of-trust-a-unified-framework-for-convex-latent-steering-and-causal-concept-alignment-starting-september-2026-based-at-the-section-for-cognitive-systems-at-dtu-compute-the-project-asks-whether-ai-safety-can-come-from-inside-the-model-from-the-geometric-structure-of-how-it-represents-information-rather-than-only-from-filtering-inputs-and-outputs-building-on-our-nature-communications-paper",
+          title: 'I am honoured to have been awarded a DDSA Postdoctoral Fellowship for my...',
+          description: "",
           section: "News",},{
         id: 'social-bluesky',
         title: 'Bluesky',
