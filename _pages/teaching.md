@@ -83,10 +83,9 @@ page.
 
 ### MSc theses
 
-- **Mathias Gilbert** — *Explaining AI in realtime* (expected 2026)
-- **Christian Øster Hyltoft** — *Uncertainty and Reliability in Large
-  Language Models – An Analysis of Existing Methods and Assumptions*
-  (expected 2026)
+- **Mathias Gilbert** — *Study of the usage of attribution methods in real-time* (2026)
+- **Christian Øster Hyltoft** — *Uncertainty Quantification in Large Language Models*
+  (2026)
 - **Lasse Møller Sørensen** — *From Words to Actions:
   Language-Guided Robot Action Planning with V-JEPA 2-AC: An Empirical
   Study* (2026)
@@ -103,8 +102,7 @@ page.
 
 ### BSc theses
 
-- **Albert F. K. Hansen and Marcus Zabell Olssen** — *Measurement of
-  AI Free Will* (expected 2026)
+- **Albert F. K. Hansen and Marcus Zabell Olssen** — *Measurement of AI Free Will: Psychometric Evaluations and Agentic Measurements via The Free Will Inventory* (2026)
 - **Sebastian Ray Mason** — *Equivariance and interpretability in
   representation learning* (2025)
 - **Mikkel Godsk Jørgensen** — *Improving Visual Classification using
