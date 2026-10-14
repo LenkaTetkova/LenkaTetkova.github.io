@@ -22,8 +22,8 @@ constructively aligned courses, an explicit didactical contract, active
 learning built around think-pair-share, and feedback that runs in both
 directions — on the students' learning and on my own teaching.
 
-I am completing the [University teacher training programme (UDTU)](https://learninglab.dtu.dk/courses-and-events/udtu)
-at DTU, for which the course below served as my main testing ground;
+I completed the [University teacher training programme (UDTU)](https://learninglab.dtu.dk/courses-and-events/udtu)
+at DTU (2025–2026). The course below served as my main testing ground;
 it was developed as part of the UDTU requirements.
 
 
