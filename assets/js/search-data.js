@@ -90,6 +90,12 @@ ninja.data = [{
           section: "News",},{id: "news-i-am-giving-an-invited-talk-at-the-9th-international-symposium-on-ai-verification-saiv-2026-co-located-with-the-federated-logic-conference-floc-in-lisbon-on-july-24-25-2026-my-talk-latent-space-navigation-interpretation-probing-and-steering-builds-on-the-parallel-session-i-co-organised-at-the-d3a-conference-last-year-the-slides-are-available-here-and-hands-on-notebooks-are-on-github",
           title: 'I am giving an invited talk at the 9th International Symposium on AI...',
           description: "",
+          section: "News",},{id: "news-our-deep-dive-workshop-interpretability-in-the-lab-and-in-the-wild-at-the-d3a-conference-explored-what-happens-when-interpretability-methods-meet-real-data-real-deadlines-and-real-users-the-room-shared-plenty-of-successes-failures-and-a-few-problems-nobody-has-solved-yet-thanks-to-everyone-who-gave-a-talk-or-joined-the-discussions-organised-with-stella-frank-teresa-dorszewski-and-lorenz-linhardt",
+          title: 'Our deep-dive workshop Interpretability in the lab and in the wild at the...',
+          description: "",
+          section: "News",},{id: "news-i-was-recognised-as-a-top-reviewer-at-neurips-2026",
+          title: 'I was recognised as a Top Reviewer at NeurIPS 2026.',
+          description: "",
           section: "News",},{
         id: 'social-bluesky',
         title: 'Bluesky',
